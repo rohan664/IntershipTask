@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4d4d4d;
+    left: 50px;
+    height: 50px;
+    width: 100%;
+}
+.header-leftside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: large;
+    color: white;
+}
+.header-righttside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    margin: 10px;
+    border-radius: 5px;
+}
+.serach-box {
+    display: flex;
+    justify-content: center;
+}
+.serach-box img{
+    margin: 5px;
+}
+.serach-box input{
+    border: none;
+    outline: none;
+    background-color: azure;
+    border-radius: 5px;
+}

@@ -1,0 +1,44 @@
+.todo-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.add-container{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.add-headline{
+    font-weight: bold;
+    font-size: 30px;
+}
+.form{
+    margin: 50px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    background-color: antiquewhite;
+}
+.title{
+    margin: 20px;
+}
+.title textarea{
+    width: 522px;
+    height: 100px;
+}
+.input{
+    outline: none;
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid grey;
+}
+.form-headline{
+    font-weight: 900;
+    font-size: 13px;
+    
+}
+.dropdown{
+    outline: none;
+    width: 50%;
+    font-size: 15px;
+    border: 2px solid grey;
+}
